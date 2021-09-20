@@ -19,7 +19,7 @@ export default function Home({ session }) {
       {/* Header */}
       <Header session={session} />
 
-      <main className="flex">
+      <main className="flex bg-gray-50">
         {/* Sidebar */}
         <SideBar />
         {/* Feed */}
