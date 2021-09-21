@@ -11,5 +11,5 @@ module.exports = {
       divideColor: ["group-hover"],
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
